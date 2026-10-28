@@ -1,6 +1,6 @@
 # Video analytics mini projects
 
-Four small OpenCV applications built from the supplied motion-monitoring,
+Four small OpenCV applications for motion monitoring,
 privacy-blur, lane-detection and restricted-region prototypes. Each runs on
 an explicit local video source and can export annotated video without a GUI.
 
@@ -40,8 +40,7 @@ exit. Missing Hough lines produce an empty result, and output overwrite is refus
 
 These are heuristic demonstrations. Motion blur does not guarantee anonymity;
 the lane project is unsuitable for driving decisions. No cat or object identity
-classifier is present: motion events report movement only. The original raw
-footage, personal imagery and course exercises are excluded.
+classifier is present: motion events report movement only. Raw footage and personal imagery are kept outside the repository.
 
 ## Checks
 
